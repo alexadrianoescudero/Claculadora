@@ -168,7 +168,7 @@ namespace Claculadora
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(533, 193);
+            this.btnLimpiar.Location = new System.Drawing.Point(235, 276);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpiar.TabIndex = 12;
