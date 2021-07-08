@@ -58,7 +58,7 @@ namespace Claculadora
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(256, 164);
+            this.btn2.Location = new System.Drawing.Point(220, 164);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(75, 23);
             this.btn2.TabIndex = 1;
@@ -68,7 +68,7 @@ namespace Claculadora
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(387, 164);
+            this.btn3.Location = new System.Drawing.Point(321, 164);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(75, 23);
             this.btn3.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace Claculadora
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(125, 220);
+            this.btn4.Location = new System.Drawing.Point(125, 193);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(75, 23);
             this.btn4.TabIndex = 3;
@@ -88,7 +88,7 @@ namespace Claculadora
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(256, 220);
+            this.btn5.Location = new System.Drawing.Point(220, 193);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(75, 23);
             this.btn5.TabIndex = 4;
@@ -98,7 +98,7 @@ namespace Claculadora
             // 
             // btn6
             // 
-            this.btn6.Location = new System.Drawing.Point(387, 220);
+            this.btn6.Location = new System.Drawing.Point(321, 193);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(75, 23);
             this.btn6.TabIndex = 5;
@@ -108,7 +108,7 @@ namespace Claculadora
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(125, 275);
+            this.btn7.Location = new System.Drawing.Point(125, 222);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(75, 23);
             this.btn7.TabIndex = 6;
@@ -118,7 +118,7 @@ namespace Claculadora
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(256, 274);
+            this.btn8.Location = new System.Drawing.Point(220, 222);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(75, 23);
             this.btn8.TabIndex = 7;
@@ -128,7 +128,7 @@ namespace Claculadora
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(387, 274);
+            this.btn9.Location = new System.Drawing.Point(321, 222);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 23);
             this.btn9.TabIndex = 8;
@@ -138,7 +138,7 @@ namespace Claculadora
             // 
             // btnSuma
             // 
-            this.btnSuma.Location = new System.Drawing.Point(505, 163);
+            this.btnSuma.Location = new System.Drawing.Point(423, 164);
             this.btnSuma.Name = "btnSuma";
             this.btnSuma.Size = new System.Drawing.Size(75, 23);
             this.btnSuma.TabIndex = 9;
@@ -148,7 +148,7 @@ namespace Claculadora
             // 
             // btn0
             // 
-            this.btn0.Location = new System.Drawing.Point(505, 220);
+            this.btn0.Location = new System.Drawing.Point(423, 193);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(75, 23);
             this.btn0.TabIndex = 10;
@@ -158,7 +158,7 @@ namespace Claculadora
             // 
             // btnIgual
             // 
-            this.btnIgual.Location = new System.Drawing.Point(505, 273);
+            this.btnIgual.Location = new System.Drawing.Point(423, 222);
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.Size = new System.Drawing.Size(75, 23);
             this.btnIgual.TabIndex = 11;
@@ -168,7 +168,7 @@ namespace Claculadora
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(629, 220);
+            this.btnLimpiar.Location = new System.Drawing.Point(533, 193);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpiar.TabIndex = 12;
