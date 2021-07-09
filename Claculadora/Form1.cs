@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Claculadora.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -70,28 +71,19 @@ namespace Claculadora
 
         private void btnSuma_Click(object sender, EventArgs e)
         {
+            Operaciones oper = new Operaciones();
             numero = numero + "+";
-            string[] num = numero.Split('+');
-            int sumador = 0;
-            for (int i = 0; i < num.Length; i++)
-            {
-                if (!string.IsNullOrEmpty( num[i]))
-                    sumador = sumador + Convert.ToInt32(num[i]);
-            }
+            string[] num = numero.Split('+');           
             blnCabezara1.Text = numero;
-            blnCabezara2.Text = sumador.ToString();
+            blnCabezara2.Text = oper.Suma(num).ToString(); 
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            string[] num = numero.Split('+');
-            int sumador = 0;
-            for (int i = 0; i < num.Length; i++)
-            {
-                sumador = sumador + Convert.ToInt32(num[i]);
-            }
+            Operaciones oper = new Operaciones();
+            string[] num = numero.Split('+');            
             blnCabezara1.Text = numero;
-            blnCabezara2.Text = sumador.ToString();
+            blnCabezara2.Text = oper.Suma(num).ToString();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -105,6 +97,8 @@ namespace Claculadora
         {
             blnCabezara1.Text = "";
             blnCabezara2.Text = "";
+            //double resultado, num = 25;
+            // resultado = Math.Sqrt(num);
         }
     }
 }
