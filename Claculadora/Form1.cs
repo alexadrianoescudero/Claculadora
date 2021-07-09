@@ -99,6 +99,10 @@ namespace Claculadora
             blnCabezara2.Text = "";
             //double resultado, num = 25;
             // resultado = Math.Sqrt(num);
+
+            double resultado, num = 25, porcentaje =10;
+            resultado = (num * porcentaje) / 100;
+
         }
     }
 }
